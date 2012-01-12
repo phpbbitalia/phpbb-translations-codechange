@@ -12,7 +12,7 @@
 * Append diff to file or echo
 * File will be stored in this script directory
 */
-$append = false;
+$append = true;
 
 /**
 * Set translation ISO, phpBB versions and optional author information
