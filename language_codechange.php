@@ -38,7 +38,7 @@ $files = array(
 	'edit'	=> array()
 );
 
-header("Content-Type: text/plain");
+header("Content-Type: text/plain; charset=UTF-8");
 include('./diff_class.php');
 
 $text = createDiff($directory['latest']);
@@ -174,7 +174,7 @@ function DiffHeader()
 
 		foreach($files['new'] as $filename)
 		{
-			$text .= "copy {$filename} to {$filename}\n";
+			$text .= "copy language/{$iso}/{$filename} to language/{$iso}/{$filename}\n";
 		}
 
 		$text .= "\n";
