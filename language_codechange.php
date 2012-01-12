@@ -17,13 +17,13 @@ $append = false;
 /**
 * Set translation ISO, phpBB versions and optional author information
 */
-$iso = 'en';
+$iso = 'it';
 $previousVersion = '3.0.9';
 $latestVersion = '3.0.10';
-$author_username = 'naderman';
-$author_email = 'naderman@phpbb.com';
-$author_realname = 'Nils Adermann';
-$author_website = 'http://www.phpbb.com';
+$author_username = 'phpBBItalia.net';
+$author_email = 'info@phpbbitalia.net';
+$author_realname = '';
+$author_website = 'http://www.phpbbitalia.net';
 
 /**
 * Translations root directory (with final slash)
